@@ -118,7 +118,7 @@ if __name__ == '__main__':
    #json output
    if args.output == 'json':
       try:
-         conn = pymongo.MongoClient('$IP', 27017)
+         conn = pymongo.MongoClient('1.1.1.1', 27017)
       except pymongo.errors.ConnectionFailure, e:
          print "Could not connect to MongoDB: %s" % e
       db = conn.neteng
