@@ -10,7 +10,7 @@ import argparse
 import sys
 from ncclient import manager
 
-__author__ = ['shane@craigslist.org']
+__author__ = ['shanecon']
 __version__ = "Jan 2016"
 
 # Have to easy_install ncclient, xmltodict, pymongo
