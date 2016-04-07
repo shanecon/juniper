@@ -102,7 +102,7 @@ if __name__ == '__main__':
     password = get_user_info()
     # Create object with ip_address, user and password
     juniper_device = Device(host=ip_addr_juniper_device,
-    user=os.getenv("USER"),password=password)
+    user=os.getenv("USER"),password=password,port='22')
     # open the device defined instance
     juniper_device.open()
     # open configuration method
