@@ -34,7 +34,6 @@ if __name__ == '__main__':
     'router4'
     )
     as_name = {
-    '22414':'Craigslist',
     '174':'Cogent',
     '209':'CenturyLink',
     '3356':'Level3',
