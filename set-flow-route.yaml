@@ -1,0 +1,85 @@
+---
+# $Id$
+# YAML file covering all possible variables
+
+flow_routes_10_0_0_0_32:
+  flow_route_name: "block_10_0_0_0_32"
+  # Destination prefix and mask in format: A.B.C.D/Z
+  destination_address_and_mask: 208.82.236.0/22 
+  # DSCP in decimal format
+  dscp:
+  # Destination port as alias or in decimal format
+  destination_port: 
+  # Fragment Junos OS knobs
+  fragment:
+  # ICMP code as alias or in decimal format
+  icmp_code:
+  # ICMP type as alias or in decimal format
+  icmp_type:
+  # Full L3 length in bytes
+  packet_length:
+  # Source or destination port as alias or in decimal format
+  port:
+  # Protocol as alias or in decimal format
+  protocol: tcp 
+  # Source prefix and mask in format: A.B.C.D/Z
+  source_address_and_mask: 10.0.0.0/32
+  # Source port as alias or in decimal format
+  source_port:
+  # TCP flags with Junos OS knobs
+  tcp_flags:
+  # Include 'accept' action
+  accept:
+  # Include existing community to be tagged action
+  community_name: blackhole
+  # Include 'discard' action
+  discard: discard
+  # Include 'next-term' action
+  next_term:
+  # Include policer name to be applied as action
+  rate_limit:
+  # Include existing RT community to select VRF for redirection
+  redirect_RT:
+  # Include 'sample' action
+  sample:
+
+flow_routes_10_0_0_10_32:                                                        
+  flow_route_name: "block_10_0_0_10_32"                                          
+  # Destination prefix and mask in format: A.B.C.D/Z                            
+  destination_address_and_mask: 208.82.236.0/22                                 
+  # DSCP in decimal format                                                      
+  dscp:                                                                         
+  # Destination port as alias or in decimal format                              
+  destination_port:                                                             
+  # Fragment Junos OS knobs                                                     
+  fragment:                                                                     
+  # ICMP code as alias or in decimal format                                     
+  icmp_code:                                                                    
+  # ICMP type as alias or in decimal format                                     
+  icmp_type:                                                                    
+  # Full L3 length in bytes                                                     
+  packet_length:                                                                
+  # Source or destination port as alias or in decimal format                    
+  port:                                                                         
+  # Protocol as alias or in decimal format                                      
+  protocol: tcp                                                                 
+  # Source prefix and mask in format: A.B.C.D/Z                                 
+  source_address_and_mask: 10.0.0.10/32                                          
+  # Source port as alias or in decimal format                                   
+  source_port:                                                                  
+  # TCP flags with Junos OS knobs                                               
+  tcp_flags:                                                                    
+  # Include 'accept' action                                                     
+  accept:                                                                       
+  # Include existing community to be tagged action                              
+  community_name: blackhole                                                     
+  # Include 'discard' action                                                    
+  discard: discard                                                              
+  # Include 'next-term' action                                                  
+  next_term:                                                                    
+  # Include policer name to be applied as action                                
+  rate_limit:                                                                   
+  # Include existing RT community to select VRF for redirection                 
+  redirect_RT:                                                                  
+  # Include 'sample' action                                                     
+  sample:
